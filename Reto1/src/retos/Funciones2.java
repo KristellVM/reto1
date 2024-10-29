@@ -13,4 +13,12 @@ public class Funciones2 {
 		else return num1/num2;
 	}
 	
+	public static boolean esPositivo(int num) {
+		if(num>=0) {
+		return true;
+		} else {
+			return false;
+		}
+	}
+	
 }
