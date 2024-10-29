@@ -10,5 +10,35 @@ public class Funciones1 {
 		return a - b;
 	}
 
+	/* 3)espar */ public static boolean espar(int num1) {
+		if (num1 % 2 == 0) {
+			return true;
+		}
+
+		else {
+			return false;
+		}
+	}
+
 	
-}
+
+	
+	/* 4)esimpar */ public static boolean esimpar(int num2) {
+		if (num2 % 2 == 0) {
+			return false;
+		}
+
+		else {
+			return true;
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}// class
