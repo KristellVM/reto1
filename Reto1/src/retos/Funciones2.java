@@ -21,4 +21,12 @@ public class Funciones2 {
 		}
 	}
 	
+	public static boolean esNegativo(int num) {
+		if(num<0) {
+		return true;
+		} else {
+			return false;
+		}
+	}
+	
 }
